@@ -61,10 +61,6 @@
                 Vous devez nous l'envoyez avant le 15 Septembre.
             </li>
         </ul>
-        Vous devez être étudiant
-        Votre court-métrage ne doit pas dépasser 10mn (grand maximum 15mn)
-        Vous devez nous l’envoyer avant le 5 septembre
-        Pour nous contacter, une seule adresse :
     </p>
     <a href="#" class="buttoncta">Participer</a>
 </section>
@@ -73,9 +69,9 @@
 </section>
 
 <section #HomePartenaires>
-    <h2>Devenir Partenaire Keep It Short</h2>
+    <h2>Devenir Partenaire</h2>
     <p>
-    Prenez part à un événement dynamique, concernant tous les étudiants de France et la population nantaise.
+    Prenez part à un événement cinématographique dynamique, concernant tous les étudiants de France et la population nantaise.
     </p>
     <a href="#" class="buttoncta">Devenir partenaire</a>
 </section>
