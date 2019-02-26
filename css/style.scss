@@ -8,18 +8,166 @@ Version: 1.0
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Khand');
+
 $whiteblue : #0E80A3;
 $darkblue : #1F2E69;
 
 * {
     margin : 0;
+    font-family : 'Roboto';
+    transition-delay : 0.3s;
 }
+
 
 html, body {
     height : 100%;
     width : 100%;
+    background-color : white;
 }
 
-.HomePresentation {
-    color :red;
+p {
+    line-height : 1.5;
+}
+
+ul {
+    padding-left : 0;
+    list-style-type: none;
+}
+
+#texteImportant {
+    font-weight: bold;
+}
+
+.buttoncta {
+    color : white;
+    font-family: 'Khand';
+    background-color : $whiteblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding : 3%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size : 1.7em;
+    margin-bottom : 5%;
+}
+
+.TitreH2 {
+    font-family: 'Khand';
+    text-transform: uppercase;
+    text-align: center;
+    font-size : 3em;
+    line-height: 1;
+    margin-top : 10%;
+}
+
+#ImgBanner {
+    padding : 30%;
+    background-image : url("../images/homebanner.jpg");
+    background-size : cover;
+}
+
+#HomeTopBanner {
+    display: flex;
+    flex-direction: row;
+
+    #NavigationMenu {
+        display : flex;
+        flex-direction: row;
+        flex-wrap : wrap;
+        justify-content: center;
+        text-align: center;
+        margin-bottom : 3%;
+        padding-top : 3%;
+        padding-bottom : 3%;
+        background-color : $darkblue;
+
+        .navButton {
+            text-decoration: none;
+            color : white;
+            text-align: center;
+            margin : 3%;
+            text-transform: uppercase;
+        }
+    }
+}
+
+#HomePresentation {
+    
+    text-align: justify;
+
+    #HomePresentationContent {
+        margin-left : 5%;
+        margin-right : 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            text-align : center;
+            text-transform: uppercase;
+            margin : 3%;
+        }
+
+        p {
+            margin : 3%;
+        }
+
+        a {
+            margin : 3%;
+        }
+    }
+
+}
+
+#HomeParticiper {
+    text-align: justify;
+    background-color : #EAF0F2;
+
+    #HomeParticiperContent {
+        
+        margin-left : 5%;
+        margin-right : 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            margin : 3%;
+        }
+
+        ul {
+            margin : 3%;
+        }
+
+        p {
+            margin : 3%;
+        }
+
+        a {
+            margin : 3%;
+        }
+    }
+}
+
+#HomePartenaires {
+    text-align: justify;
+
+    #HomePartenairesContent {
+        margin-left : 5%;
+        margin-right : 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#Footer {
+    background-color : #666666;
 }

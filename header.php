@@ -14,3 +14,16 @@
 </head>
 <body>
 
+<div id="ImgBanner">
+</div>
+
+
+<section id="HomeTopBanner">
+    <nav id="NavigationMenu">
+        <a href="#" class="navButton">#Présentation</a>
+        <a href="#" class="navButton">#Comment participer</a>
+        <a href="#" class="navButton">#Infos pratiques</a>
+        <a href="#" class="navButton">#Devenir Partenaire</a>
+    </nav>
+</section>
+
