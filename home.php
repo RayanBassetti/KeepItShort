@@ -79,7 +79,7 @@
                 Prenez part à un événement cinématographique dynamique, 
                 concernant tous les étudiant.e.s de France et la population Nantaise.
             </p>
-            <a href="#" class="buttoncta">Devenir partenaire</a>
+            <a href="../hallucines/partenaires" class="buttoncta">Devenir partenaire</a>
         </div>
     </section>
     <section id="HomeSocialNetworks" class="section">

@@ -23,6 +23,7 @@
 
 <section id="HomeTopBanner">
     <nav id="NavigationMenu">
+        <a href="/hallucines" class="navButton">#Accueil</a>
         <a href="#" class="navButton">#Présentation</a>
         <a href="#" class="navButton">#Infos pratiques</a>
         <a href="#" class="navButton">#Participer</a>
