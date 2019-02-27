@@ -1,4 +1,3 @@
-<section #Footer>
-    <h1>footer</h1>
+<section id="Footer">
     <a href="#" class="navButton">Contact</a>
 </section>

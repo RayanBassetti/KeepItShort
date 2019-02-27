@@ -31,6 +31,11 @@ ul {
   list-style-type: none;
 }
 
+.section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 #texteImportant {
   font-weight: bold;
 }
@@ -56,13 +61,28 @@ ul {
   text-align: center;
   font-size: 3em;
   line-height: 1;
-  margin-top: 10%;
 }
 
 #ImgBanner {
-  padding: 30%;
+  padding-bottom: 100px;
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-image: url("../images/homebanner.jpg");
   background-size: cover;
+}
+
+#ImgBannerText {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#ImgBannerText h1 {
+  margin-right: 5%;
+  margin-left: 5%;
+  text-transform: uppercase;
 }
 
 #HomeTopBanner {
@@ -75,7 +95,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  margin-bottom: 3%;
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: #1F2E69;
@@ -128,6 +147,13 @@ ul {
 }
 #HomeParticiper #HomeParticiperContent ul {
   margin: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#HomeParticiper #HomeParticiperContent ul li {
+  text-align: center;
 }
 #HomeParticiper #HomeParticiperContent p {
   margin: 3%;
@@ -147,9 +173,59 @@ ul {
   align-items: center;
   justify-content: center;
 }
+#HomePartenaires #HomePartenairesContent h2 {
+  margin: 3%;
+}
+#HomePartenaires #HomePartenairesContent p {
+  margin: 3%;
+}
+
+#HomeSocialNetworks {
+  background-color: #EAF0F2;
+}
+#HomeSocialNetworks #HomeSocialNetworksContent {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#HomeSocialNetworks #HomeSocialNetworksContent ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#HomeSocialNetworks #HomeSocialNetworksContent h2 {
+  text-align: center;
+  margin: 3%;
+}
+#HomeSocialNetworks #HomeSocialNetworksContent p {
+  margin: 3%;
+}
+#HomeSocialNetworks #HomeSocialNetworksContent a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  margin: 3%;
+  font-family: "Khand";
+  font-size: 2em;
+}
 
 #Footer {
   background-color: #666666;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Footer a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  margin: 3%;
+  font-family: "Khand";
+  font-size: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

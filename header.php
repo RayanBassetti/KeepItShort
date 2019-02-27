@@ -16,13 +16,16 @@
 
 <div id="ImgBanner">
 </div>
+<div id="ImgBannerText">
+    <h1>Du 4 au 5 Octobre 2019</h1>
+</div>
 
 
 <section id="HomeTopBanner">
     <nav id="NavigationMenu">
         <a href="#" class="navButton">#Présentation</a>
-        <a href="#" class="navButton">#Comment participer</a>
         <a href="#" class="navButton">#Infos pratiques</a>
+        <a href="#" class="navButton">#Participer</a>
         <a href="#" class="navButton">#Devenir Partenaire</a>
     </nav>
 </section>
