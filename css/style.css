@@ -98,9 +98,12 @@ ul {
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: #1F2E69;
+  font-family: "Khand";
 }
 #HomeTopBanner #NavigationMenu .navButton {
   text-decoration: none;
+  font-family: "Khand";
+  font-size: 1.5em;
   color: white;
   text-align: center;
   margin: 3%;

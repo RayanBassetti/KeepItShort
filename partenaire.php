@@ -7,7 +7,14 @@
 
 <?php if ( have_posts() ) : 
     while ( have_posts() ) : 
-        the_title('<h3>', '</h3>');
+?>
+
+<section id="Partenaires">
+    <div id="PartenairesContent">
+        <h2><?php the_title(); ?></h2>
+        
+        
+        <?php
         the_post();
         the_content();
     endwhile; 

@@ -91,102 +91,131 @@ ul {
     }
 }
 
-#HomeTopBanner {
-    display: flex;
-    flex-direction: row;
+//HOME
 
-    #NavigationMenu {
-        display : flex;
+
+    #HomeTopBanner {
+        display: flex;
         flex-direction: row;
-        flex-wrap : wrap;
-        justify-content: center;
-        text-align: center;
-        padding-top : 3%;
-        padding-bottom : 3%;
-        background-color : $darkblue;
 
-        .navButton {
-            text-decoration: none;
-            color : white;
+        #NavigationMenu {
+            display : flex;
+            flex-direction: row;
+            flex-wrap : wrap;
+            justify-content: center;
             text-align: center;
-            margin : 3%;
-            text-transform: uppercase;
-        }
-    }
-}
+            padding-top : 3%;
+            padding-bottom : 3%;
+            background-color : $darkblue;
+            font-family: "Khand";
 
-#HomePresentation {
-    
-    text-align: justify;
-
-    #HomePresentationContent {
-        margin-left : 5%;
-        margin-right : 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        h2 {
-            text-align : center;
-            text-transform: uppercase;
-            margin : 3%;
-        }
-
-        p {
-            margin : 3%;
-        }
-
-        a {
-            margin : 3%;
+            .navButton {
+                text-decoration: none;
+                font-family: "Khand";
+                font-size : 1.5em;
+                color : white;
+                text-align: center;
+                margin : 3%;
+                text-transform: uppercase;
+            }
         }
     }
 
-}
-
-#HomeParticiper {
-    text-align: justify;
-    background-color : #EAF0F2;
-
-    #HomeParticiperContent {
+    #HomePresentation {
         
-        margin-left : 5%;
-        margin-right : 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        text-align: justify;
 
-        h2 {
-            margin : 3%;
-        }
-
-        ul {
-            margin : 3%;
+        #HomePresentationContent {
+            margin-left : 5%;
+            margin-right : 5%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
 
-            li {
-                text-align: center;
+            h2 {
+                text-align : center;
+                text-transform: uppercase;
+                margin : 3%;
+            }
+
+            p {
+                margin : 3%;
+            }
+
+            a {
+                margin : 3%;
             }
         }
 
-        p {
-            margin : 3%;
-        }
+    }
 
-        a {
-            margin : 3%;
+    #HomeParticiper {
+        text-align: justify;
+        background-color : #EAF0F2;
+
+        #HomeParticiperContent {
+            
+            margin-left : 5%;
+            margin-right : 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                margin : 3%;
+            }
+
+            ul {
+                margin : 3%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    text-align: center;
+                }
+            }
+
+            p {
+                margin : 3%;
+            }
+
+            a {
+                margin : 3%;
+            }
         }
     }
-}
 
-#HomePartenaires {
-    text-align: justify;
+    #HomePartenaires {
+        text-align: justify;
 
-    #HomePartenairesContent {
+        #HomePartenairesContent {
+            margin-left : 5%;
+            margin-right : 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h2 {
+                margin : 3%;
+            }
+
+            p {
+                margin : 3%;
+            }
+        }
+    }
+
+    #HomeSocialNetworks {
+        
+        background-color : #EAF0F2;
+
+        #HomeSocialNetworksContent {
+            
         margin-left : 5%;
         margin-right : 5%;
         display: flex;
@@ -194,57 +223,40 @@ ul {
         align-items: center;
         justify-content: center;
 
-        h2 {
-            margin : 3%;
-        }
+            
+            ul li {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
 
-        p {
-            margin : 3%;
+            h2 {
+                text-align : center;
+                margin : 3%;
+            }
+
+            p {
+                margin : 3%;
+            }
+
+            a {
+                text-decoration: none;
+                color : black;
+                text-transform: uppercase;
+                margin : 3%;
+                font-family: "Khand";
+                font-size : 2em;
+            }
+
+
         }
     }
-}
-
-#HomeSocialNetworks {
-    
-    background-color : #EAF0F2;
-
-    #HomeSocialNetworksContent {
-        
-    margin-left : 5%;
-    margin-right : 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-        
-        ul li {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-        }
-
-        h2 {
-            text-align : center;
-            margin : 3%;
-        }
-
-        p {
-            margin : 3%;
-        }
-
-        a {
-            text-decoration: none;
-            color : black;
-            text-transform: uppercase;
-            margin : 3%;
-            font-family: "Khand";
-            font-size : 2em;
-        }
 
 
-    }
-}
+
+// PARTENAIRES     
+
+//FOOTER 
 
 
 #Footer {
