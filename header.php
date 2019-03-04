@@ -17,7 +17,7 @@
 <div id="ImgBanner">
 </div>
 <div id="ImgBannerText">
-    <h1>Du 4 au 5 Octobre 2019</h1>
+    <h1>Keep It Short - Du 4 au 5 Octobre 2019</h1>
 </div>
 
 

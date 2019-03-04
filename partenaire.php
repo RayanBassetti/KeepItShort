@@ -11,19 +11,26 @@
 
 <section id="Partenaires">
     <div id="PartenairesContent">
-        <h2><?php the_title(); ?></h2>
+        <h2 class="TitreH2"><?php the_title(); ?></h2>
         
-        
+        <p>
+
         <?php
-        the_post();
-        the_content();
+            the_post();
+            the_content();
     endwhile; 
     
-else: 
+    else: 
 
-?>
+    ?>
 
 <?php endif; ?>
+
+        </p>
+
+
+    </div>
+</section>
 
 </body>
 <?php get_footer(); ?>

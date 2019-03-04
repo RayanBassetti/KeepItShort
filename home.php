@@ -2,9 +2,18 @@
     <!--
     <section id="HomeCarrousel">
     </section>
-    <section id="HomeEdition2018">
-    </section>
     -->
+    <section id="HomeEdition2018">
+        <div id="HomeEdtion2018Content">
+            <h2 class="TitreH2">L'EDITION 2018 EN 2 MINUTES</h2>
+            <div class="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e4ZZuHwiq5c" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
     <section id="HomePresentation" class="section">
         <div id="HomePresentationContent">
             <h2 class="TitreH2">"Keep It Short", c'est quoi</h2>
@@ -23,6 +32,9 @@
             courts-métrages d’animation et de remettre un prix à cette catégorie. 
             N’hésitez pas non plus à exposer vos talents !
             </p>
+            <div id="HomeAffiche">
+            
+            </div>
             <a href="#" class="buttoncta">Infos pratiques</a> 
         </div>
     </section>

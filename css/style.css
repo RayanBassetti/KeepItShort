@@ -85,6 +85,32 @@ ul {
   text-transform: uppercase;
 }
 
+/* HOME */
+#HomeEdition2018 #HomeEdition2018Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#HomeEdition2018 #HomeEdition2018Content h2 {
+  margin: 3% !important;
+}
+#HomeEdition2018 #HomeEdition2018Content .iframe-container {
+  width: 100%;
+  margin: auto;
+}
+#HomeEdition2018 #HomeEdition2018Content .iframe-container div {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+#HomeEdition2018 #HomeEdition2018Content .iframe-container div iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #HomeTopBanner {
   display: flex;
   flex-direction: row;
@@ -131,6 +157,12 @@ ul {
 }
 #HomePresentation #HomePresentationContent a {
   margin: 3%;
+}
+#HomePresentation #HomePresentationContent #HomeAffiche {
+  height: 450px;
+  width: 350px;
+  background-image: url("../images/affiche.jpg");
+  background-size: cover;
 }
 
 #HomeParticiper {
@@ -194,6 +226,10 @@ ul {
   align-items: center;
   justify-content: center;
 }
+#HomeSocialNetworks #HomeSocialNetworksContent ul {
+  display: flex;
+  flex-direction: column;
+}
 #HomeSocialNetworks #HomeSocialNetworksContent ul li {
   display: flex;
   flex-direction: column;
@@ -215,6 +251,24 @@ ul {
   font-size: 2em;
 }
 
+#Partenaires {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Partenaires #PartenairesContent {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#Partenaires #PartenairesContent h2 {
+  margin: 3%;
+}
+#Partenaires #PartenairesContent p {
+  margin: 3%;
+}
+
 #Footer {
   background-color: #666666;
   display: flex;
@@ -229,6 +283,47 @@ ul {
   margin: 3%;
   font-family: "Khand";
   font-size: 2em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 900px) {
+  #ImgBanner {
+    display: none;
+  }
+
+  #HomeTopBanner {
+    width: 100%;
+  }
+  #HomeTopBanner #NavigationMenu {
+    width: 100%;
+    padding: 0;
+  }
+
+  #HomePresentation, #HomeParticiper, #HomePartenaires, #HomeSocialNetworks {
+    padding: 0;
+  }
+  #HomePresentation #HomePresentationContent, #HomePresentation #HomeParticiperContent, #HomePresentation #HomePartenairesContent, #HomePresentation #HomeSocialNetworksContent, #HomeParticiper #HomePresentationContent, #HomeParticiper #HomeParticiperContent, #HomeParticiper #HomePartenairesContent, #HomeParticiper #HomeSocialNetworksContent, #HomePartenaires #HomePresentationContent, #HomePartenaires #HomeParticiperContent, #HomePartenaires #HomePartenairesContent, #HomePartenaires #HomeSocialNetworksContent, #HomeSocialNetworks #HomePresentationContent, #HomeSocialNetworks #HomeParticiperContent, #HomeSocialNetworks #HomePartenairesContent, #HomeSocialNetworks #HomeSocialNetworksContent {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #HomePresentation #HomeParticiperContent h2, #HomeParticiper #HomeParticiperContent h2, #HomePartenaires #HomeParticiperContent h2, #HomeSocialNetworks #HomeParticiperContent h2 {
+    margin-bottom: 0;
+  }
+  #HomePresentation #HomeParticiperContent ul, #HomeParticiper #HomeParticiperContent ul, #HomePartenaires #HomeParticiperContent ul, #HomeSocialNetworks #HomeParticiperContent ul {
+    margin: 0;
+  }
+  #HomePresentation #HomeSocialNetworksContent ul, #HomeParticiper #HomeSocialNetworksContent ul, #HomePartenaires #HomeSocialNetworksContent ul, #HomeSocialNetworks #HomeSocialNetworksContent ul {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3%;
+  }
+  #HomePresentation #HomeSocialNetworksContent ul li, #HomeParticiper #HomeSocialNetworksContent ul li, #HomePartenaires #HomeSocialNetworksContent ul li, #HomeSocialNetworks #HomeSocialNetworksContent ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

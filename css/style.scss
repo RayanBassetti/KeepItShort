@@ -91,8 +91,40 @@ ul {
     }
 }
 
-//HOME
+    /* HOME */
 
+    #HomeEdition2018 {
+        
+        #HomeEdition2018Content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h2 {
+                margin : 3% !important;
+            }
+
+            .iframe-container {
+                width : 100%;
+                margin: auto;
+
+                div {
+                    position: relative;
+                    height: 0;
+                    padding-bottom: 56.25%;
+
+                    iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+        }
+    }
 
     #HomeTopBanner {
         display: flex;
@@ -145,6 +177,13 @@ ul {
 
             a {
                 margin : 3%;
+            }
+
+            #HomeAffiche {
+                height: 450px;
+                width : 350px;
+                background-image : url("../images/affiche.jpg");
+                background-size: cover;
             }
         }
 
@@ -223,6 +262,11 @@ ul {
         align-items: center;
         justify-content: center;
 
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
+
             
             ul li {
                 display: flex;
@@ -256,6 +300,27 @@ ul {
 
 // PARTENAIRES     
 
+#Partenaires {
+    margin : 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #PartenairesContent {
+        margin-left : 20%;
+        margin-right : 20%;
+
+        h2 {
+            margin : 3%;
+        }
+
+        p {
+            margin : 3%;
+        }
+    }
+}
+
 //FOOTER 
 
 
@@ -274,4 +339,59 @@ ul {
         font-family: "Khand";
         font-size : 2em;
     }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 900px) {
+
+    #ImgBanner {
+        display: none;
+    }
+
+    #HomeTopBanner {
+        width : 100%;
+
+        #NavigationMenu {
+            width : 100%;
+            padding : 0;
+        }
+    }
+
+    #HomePresentation, #HomeParticiper, #HomePartenaires, #HomeSocialNetworks  {
+        padding : 0;
+
+        #HomePresentationContent, #HomeParticiperContent, #HomePartenairesContent, #HomeSocialNetworksContent {
+            margin-left : 20%;
+            margin-right : 20%;
+        }
+
+        #HomeParticiperContent {
+
+            h2 {
+                margin-bottom : 0;
+            }
+
+            ul {
+                margin : 0;
+            }
+        }
+
+        #HomeSocialNetworksContent ul {
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom : 3%;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left : 7%;
+                margin-right : 7%;
+            }
+        }
+
+
+}
+
 }
