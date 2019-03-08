@@ -7,10 +7,12 @@
         <div id="HomeEdtion2018Content">
             <h2 class="TitreH2">L'EDITION 2018 EN 2 MINUTES</h2>
             <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/e4ZZuHwiq5c" 
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-                gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+                <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e4ZZuHwiq5c" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+                    gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
             </div>
         </div>
     </section>
