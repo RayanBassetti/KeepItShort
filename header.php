@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Keep It Short</title>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" type="text/css" media="screen" />
-    <!-- <link href="<?php echo get_stylesheet_directory_uri(); ?>https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
-    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="wp-content/themes/rc-creative/js/script.js"></script>
-    -->
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/script.js"></script>
 </head>
 <body>
 
-<div id="ImgBanner">
-</div>
-<div id="ImgBannerText">
-    <h1>Keep It Short - Du 4 au 5 Octobre 2019</h1>
+<div id="BigIntroBanner">
+    <div id="ImgBanner">
+        <div id="ImgBannerImg"></div>
+    </div>
+    <div id="ImgBannerText">
+        <h1>Du 4 au 5 Octobre 2019</h1>
+    </div>
 </div>
 
 

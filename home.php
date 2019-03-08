@@ -5,14 +5,11 @@
     -->
     <section id="HomeEdition2018">
         <div id="HomeEdtion2018Content">
-            <h2 class="TitreH2">L'EDITION 2018 EN 2 MINUTES</h2>
-            <div class="iframe-container">
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e4ZZuHwiq5c" 
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
-                    gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
+            <div id="iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e4ZZuHwiq5c" 
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </div>
         </div>
     </section>
@@ -35,9 +32,8 @@
             N’hésitez pas non plus à exposer vos talents !
             </p>
             <div id="HomeAffiche">
-            
             </div>
-            <a href="#" class="buttoncta">Infos pratiques</a> 
+            <a href="#" class="buttonCTAToCome">Infos pratiques</a> 
         </div>
     </section>
     <section id="HomeParticiper" class="section">
@@ -83,7 +79,7 @@
                     Vous devez nous l'envoyez <span id="texteImportant">avant le 15 Septembre.</span>
                     </li>
                 </ul>
-            <a href="#" class="buttoncta">Participer</a>
+            <a href="#" class="buttonCTAToCome">Participer</a>
         </div>
     </section>
     <section id="HomePartenaires" class="section">
@@ -99,6 +95,7 @@
     <section id="HomeSocialNetworks" class="section">
         <div id="HomeSocialNetworksContent">
             <h2 class="TitreH2">Nos réseaux sociaux </h2>
+            <p>Parce que c'est ici que vous aurez toutes les informations en premier.</p>
             <ul>
                 <li>
                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>../images/facebook.png" alt=""></a>

@@ -19,7 +19,7 @@ Version: 1.0
 html, body {
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: black;
 }
 
 p {
@@ -55,6 +55,21 @@ ul {
   margin-bottom: 5%;
 }
 
+.buttonCTAToCome {
+  color: white;
+  font-family: "Khand";
+  background-color: #0E80A3;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size: 1.7em;
+  margin-bottom: 5%;
+}
+
 .TitreH2 {
   font-family: "Khand";
   text-transform: uppercase;
@@ -64,10 +79,13 @@ ul {
 }
 
 #ImgBanner {
+  margin: 0;
+}
+#ImgBanner #ImgBannerImg {
   padding-bottom: 100px;
-  padding-top: 30%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
   background-image: url("../images/homebanner.jpg");
   background-size: cover;
 }
@@ -76,8 +94,8 @@ ul {
   text-align: center;
   background-color: black;
   color: white;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 #ImgBannerText h1 {
   margin-right: 5%;
@@ -86,24 +104,22 @@ ul {
 }
 
 /* HOME */
-#HomeEdition2018 #HomeEdition2018Content {
+#HomeEdition2018 #HomeEdtion2018Content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#HomeEdition2018 #HomeEdition2018Content h2 {
+#HomeEdition2018 #HomeEdtion2018Content .TitreH2 {
   margin: 3% !important;
 }
-#HomeEdition2018 #HomeEdition2018Content .iframe-container {
-  width: 100%;
-  margin: auto;
-}
-#HomeEdition2018 #HomeEdition2018Content .iframe-container div {
+#HomeEdition2018 #HomeEdtion2018Content #iframe-container {
   position: relative;
-  height: 0;
   padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
-#HomeEdition2018 #HomeEdition2018Content .iframe-container div iframe {
+#HomeEdition2018 #HomeEdtion2018Content #iframe-container iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -123,7 +139,7 @@ ul {
   text-align: center;
   padding-top: 3%;
   padding-bottom: 3%;
-  background-color: #1F2E69;
+  background-color: black;
   font-family: "Khand";
 }
 #HomeTopBanner #NavigationMenu .navButton {
@@ -138,6 +154,7 @@ ul {
 
 #HomePresentation {
   text-align: justify;
+  color: white;
 }
 #HomePresentation #HomePresentationContent {
   margin-left: 5%;
@@ -199,6 +216,7 @@ ul {
 
 #HomePartenaires {
   text-align: justify;
+  color: white;
 }
 #HomePartenaires #HomePartenairesContent {
   margin-left: 5%;
@@ -210,6 +228,7 @@ ul {
 }
 #HomePartenaires #HomePartenairesContent h2 {
   margin: 3%;
+  margin-bottom: 1%;
 }
 #HomePartenaires #HomePartenairesContent p {
   margin: 3%;
@@ -276,27 +295,48 @@ ul {
   justify-content: center;
   align-items: center;
 }
-#Footer a {
+#Footer .navButton {
   text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  margin: 3%;
   font-family: "Khand";
-  font-size: 2em;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  margin: 3%;
+  text-transform: uppercase;
+}
+#Footer .rayan {
+  color: white;
 }
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 900px) {
+  #BigIntroBanner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #ImgBanner {
-    display: none;
+    width: 50%;
+    height: 50%;
+  }
+  #ImgBanner #ImgBannerImg {
+    padding-top: 35%;
+    padding-bottom: 200px;
   }
 
   #HomeTopBanner {
     width: 100%;
+    top: 0;
+    position: sticky;
   }
   #HomeTopBanner #NavigationMenu {
     width: 100%;
     padding: 0;
+    top: 0;
+    position: sticky;
   }
 
   #HomePresentation, #HomeParticiper, #HomePartenaires, #HomeSocialNetworks {
