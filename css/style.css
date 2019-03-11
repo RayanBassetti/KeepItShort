@@ -26,6 +26,10 @@ p {
   line-height: 1.5;
 }
 
+p, h1, h2, h3, h4, h5, h6, span {
+  cursor: default;
+}
+
 ul {
   padding-left: 0;
   list-style-type: none;
@@ -82,10 +86,9 @@ ul {
   margin: 0;
 }
 #ImgBanner #ImgBannerImg {
-  padding-bottom: 100px;
-  padding-top: 25%;
-  padding-left: 15%;
-  padding-right: 15%;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   background-image: url("../images/homebanner.jpg");
   background-size: cover;
 }
@@ -270,6 +273,7 @@ ul {
   font-size: 2em;
 }
 
+/* PARTENAIRES */
 #Partenaires {
   margin: 0;
   display: flex;
@@ -280,6 +284,7 @@ ul {
 #Partenaires #PartenairesContent {
   margin-left: 20%;
   margin-right: 20%;
+  color: white;
 }
 #Partenaires #PartenairesContent h2 {
   margin: 3%;
@@ -288,6 +293,7 @@ ul {
   margin: 3%;
 }
 
+/* FOOTER */
 #Footer {
   background-color: #666666;
   display: flex;
@@ -311,20 +317,13 @@ ul {
 /* MEDIA QUERIES */
 @media screen and (min-width: 900px) {
   #BigIntroBanner {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-  #ImgBanner {
-    width: 50%;
-    height: 50%;
-  }
-  #ImgBanner #ImgBannerImg {
-    padding-top: 35%;
-    padding-bottom: 200px;
+  #BigIntroBanner #ImgBanner #ImgBannerImg {
+    max-width: none;
   }
 
   #HomeTopBanner {
@@ -363,6 +362,36 @@ ul {
     justify-content: center;
     margin-left: 7%;
     margin-right: 7%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 900px) {
+  #BigIntroBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #BigIntroBanner #ImgBanner #ImgBannerImg {
+    max-width: none;
+  }
+
+  #HomeTopBanner {
+    display: initial;
+  }
+}
+@media only screen and (min-device-width: 400px) and (max-device-width: 768px) {
+  #BigIntroBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #BigIntroBanner #ImgBanner #ImgBannerImg {
+    max-width: none;
+  }
+
+  #HomeTopBanner {
+    display: initial;
   }
 }
 

@@ -13,7 +13,7 @@
 
 <div id="BigIntroBanner">
     <div id="ImgBanner">
-        <div id="ImgBannerImg"></div>
+        <img id="ImgBannerImg" src="<?php echo get_stylesheet_directory_uri(); ?>/images/homebanner"></div>
     </div>
     <div id="ImgBannerText">
         <h1>Du 4 au 5 Octobre 2019</h1>

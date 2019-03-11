@@ -31,6 +31,10 @@ p {
     line-height : 1.5;
 }
 
+p, h1, h2, h3, h4, h5, h6, span {
+    cursor: default;
+}
+
 ul {
     padding-left : 0;
     list-style-type: none;
@@ -86,11 +90,10 @@ ul {
 #ImgBanner {
     margin : 0;
 
-    #ImgBannerImg {
-        padding-bottom : 100px;
-        padding-top : 25%;
-        padding-left : 15%;
-        padding-right : 15%;
+    #ImgBannerImg {     
+        width: 100%;
+        max-width: 400px;
+        height: auto;
         background-image : url("../images/homebanner.jpg");
         background-size : cover;
     }
@@ -319,77 +322,73 @@ ul {
 
 
 
-// PARTENAIRES     
+    /* PARTENAIRES */
 
-#Partenaires {
-    margin : 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    #Partenaires {
+        margin : 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    #PartenairesContent {
-        margin-left : 20%;
-        margin-right : 20%;
+        #PartenairesContent {
+            margin-left : 20%;
+            margin-right : 20%;
+            color : white;
 
-        h2 {
+            h2 {
+                margin : 3%;
+            }
+
+            p {
+                margin : 3%;
+            }
+        }
+    }
+
+    /* FOOTER */
+
+
+    #Footer {
+        background-color : #666666;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .navButton {
+            text-decoration: none;
+            font-family: "Khand";
+            font-size : 3em;
+            color : white;
+            text-align: center;
             margin : 3%;
+            text-transform: uppercase;
         }
 
-        p {
-            margin : 3%;
+        .rayan {
+            color : white;
         }
-    }
-}
-
-//FOOTER 
 
 
-#Footer {
-    background-color : #666666;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    .navButton {
-        text-decoration: none;
-        font-family: "Khand";
-        font-size : 3em;
-        color : white;
-        text-align: center;
-        margin : 3%;
-        text-transform: uppercase;
+        
     }
 
-    .rayan {
-        color : white;
-    }
+    /* MEDIA QUERIES */
 
-
-
-    
-}
-
-/* MEDIA QUERIES */
-
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) { // desktop
 
     #BigIntroBanner {
-        height : 100%;
         width : 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
 
-    #ImgBanner {
-        width : 50%;
-        height: 50%;
-
-        #ImgBannerImg {
-            padding-top : 35%;
-            padding-bottom : 200px;
+        #ImgBanner {
+            #ImgBannerImg {
+                max-width: none;
+            }
         }
     }
 
@@ -441,5 +440,49 @@ ul {
 
 
 }
+
+}
+
+@media only screen //IPAD
+and (min-device-width : 768px) // landscapes and portrait
+and (max-device-width : 900px)  { 
+
+    #BigIntroBanner {
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        #ImgBanner {
+            #ImgBannerImg {
+                max-width: none;
+            }
+        }
+    }
+
+        #HomeTopBanner {
+            display : initial;
+        }
+    }
+
+@media only screen //inbetween IPAD and mobile
+and (min-device-width : 400px) // landscapes and portrait
+and (max-device-width : 768px) {
+
+    #BigIntroBanner {
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #ImgBanner {
+            #ImgBannerImg {
+                max-width: none;
+            }
+        }
+    }
+
+    #HomeTopBanner {
+        display : initial;
+    }
 
 }
