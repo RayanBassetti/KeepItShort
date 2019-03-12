@@ -13,6 +13,7 @@ Version: 1.0
 
 $whiteblue : #0E80A3;
 $darkblue : #1F2E69;
+$greyishwhite : #EAF0F2;
 
 * {
     margin : 0;
@@ -206,6 +207,7 @@ ul {
                 width : 350px;
                 background-image : url("../images/affiche.jpg");
                 background-size: cover;
+                margin : 3%;
             }
         }
 
@@ -213,7 +215,7 @@ ul {
 
     #HomeParticiper {
         text-align: justify;
-        background-color : #EAF0F2;
+        background-color : $greyishwhite;
 
         #HomeParticiperContent {
             
@@ -275,7 +277,7 @@ ul {
 
     #HomeSocialNetworks {
         
-        background-color : #EAF0F2;
+        background-color : $greyishwhite;
 
         #HomeSocialNetworksContent {
             
@@ -330,11 +332,11 @@ ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color : $greyishwhite;
 
         #PartenairesContent {
             margin-left : 20%;
             margin-right : 20%;
-            color : white;
 
             h2 {
                 margin : 3%;
@@ -343,6 +345,58 @@ ul {
             p {
                 margin : 3%;
             }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                list-style-type: circle;
+                margin : 3%;
+
+                    li {
+                        margin : 3%;
+                        font-weight : bold;
+                    }
+            }
+        }
+    }
+
+    /* CONTACT */
+
+    #Participer {
+        background-color : $greyishwhite;
+
+        #ParticiperContent {
+
+            padding : 3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .typeform-share {
+                display:inline-block;
+                text-decoration:none;
+                background-color:#0E80A3;
+                color:white;
+                cursor:pointer;
+                font-family:Helvetica,Arial,sans-serif;
+                font-size:20px;
+                line-height:50px;
+                text-align:center;
+                margin:0;
+                height:50px;
+                padding:0px 33px;
+                border-radius:14px;
+                max-width:100%;
+                white-space:nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
+                font-weight:bold;
+                -webkit-font-smoothing:antialiased;
+                -moz-osx-font-smoothing:grayscale;
+            }
+           
         }
     }
 
