@@ -76,7 +76,7 @@
                     </li>
                     <br />
                     <li>
-                    Vous devez nous l'envoyez <span id="texteImportant">avant le 15 Septembre.</span>
+                    Vous devez nous l'envoyez <span id="texteImportant">avant le 5 Septembre.</span>
                     </li>
                 </ul>
             <a href="#" class="buttonCTAToCome">Participer</a>
@@ -98,15 +98,15 @@
             <p>Parce que c'est ici que vous aurez toutes les informations en premier.</p>
             <ul>
                 <li>
-                   <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>../images/facebook.png" alt=""></a>
+                   <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook.png" alt=""></a>
                    <a href="">Facebook</a>
                 </li>
                 <li>
-                   <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>../images/twitter.png" alt=""></a>
+                   <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter.png" alt=""></a>
                    <a href="">Twitter</a>
                 </li>
                 <li>
-                   <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>../images/instagram.png" alt=""></a>
+                   <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/instagram.png" alt=""></a>
                    <a href="">Instagram</a>
                 </li>
             </ul>

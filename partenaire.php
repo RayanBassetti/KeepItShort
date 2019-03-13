@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Partenaire */
+/* Template Name: Devenir Partenaire */
 ?>
 
 <?php get_header(); ?>
@@ -9,8 +9,8 @@
     while ( have_posts() ) : 
 ?>
 
-<section id="Partenaires">
-    <div id="PartenairesContent">
+<section id="DevenirPartenaire">
+    <div id="DevenirPartenaireContent">
         <h2 class="TitreH2"><?php the_title(); ?></h2>
         
         <p>

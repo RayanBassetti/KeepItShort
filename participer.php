@@ -2,11 +2,25 @@
 /* Template Name: Participer */
 ?>
 
-
 <?php get_header(); ?>
+
+<?php if ( have_posts() ) : 
+    while ( have_posts() ) : 
+?>
+
 
 <section id="Participer">
     <div id="ParticiperContent">
+
+    <h2 class="TitreH2"><?php the_title(); ?></h2>
+        <?php
+            the_post();
+            the_content();
+            endwhile; 
+        
+            else: 
+        ?>
+        <?php endif; ?>
     <a class="typeform-share button" href="https://rayanbassetti.typeform.com/to/nVdsgK" data-mode="popup" 
         target="_blank">Participer 
     </a> 

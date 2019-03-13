@@ -275,33 +275,34 @@ ul {
 }
 
 /* PARTENAIRES */
-#Partenaires {
+#DevenirPartenaire {
   margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #EAF0F2;
+  background-color: white;
+  text-align: justify;
 }
-#Partenaires #PartenairesContent {
+#DevenirPartenaire #DevenirPartenaireContent {
   margin-left: 20%;
   margin-right: 20%;
 }
-#Partenaires #PartenairesContent h2 {
+#DevenirPartenaire #DevenirPartenaireContent h2 {
   margin: 3%;
 }
-#Partenaires #PartenairesContent p {
+#DevenirPartenaire #DevenirPartenaireContent p {
   margin: 3%;
 }
-#Partenaires #PartenairesContent ul {
+#DevenirPartenaire #DevenirPartenaireContent ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   list-style-type: circle;
   margin: 3%;
 }
-#Partenaires #PartenairesContent ul li {
+#DevenirPartenaire #DevenirPartenaireContent ul li {
   margin: 3%;
   font-weight: bold;
 }
@@ -313,8 +314,10 @@ ul {
 #Participer #ParticiperContent {
   padding: 3%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 #Participer #ParticiperContent .typeform-share {
   display: inline-block;
@@ -337,6 +340,13 @@ ul {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/*404 */
+#ErrorPage {
+  text-align: center;
+  background-color: #EAF0F2;
+  padding: 30%;
 }
 
 /* FOOTER */
@@ -408,6 +418,10 @@ ul {
     justify-content: center;
     margin-left: 7%;
     margin-right: 7%;
+  }
+
+  #DevenirPartenaire #DevenirPartenaireContent ul {
+    flex-direction: row;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 900px) {
