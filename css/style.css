@@ -94,6 +94,7 @@ ul {
 }
 
 #ImgBannerText {
+  display: none;
   text-align: center;
   background-color: black;
   color: white;
@@ -153,6 +154,10 @@ ul {
   text-align: center;
   margin: 3%;
   text-transform: uppercase;
+  transition: all 0.5s;
+}
+#HomeTopBanner #NavigationMenu .navButton:hover {
+  font-size: 1.7em;
 }
 
 #HomePresentation {
