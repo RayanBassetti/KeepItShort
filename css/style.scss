@@ -41,6 +41,10 @@ ul {
     list-style-type: none;
 }
 
+button:hover {
+    cursor : pointer;
+}
+
 .section {
     padding-top : 3%;
     padding-bottom : 3%;
@@ -65,6 +69,8 @@ ul {
     margin-bottom : 5%;
 }
 
+
+
 .buttonCTAToCome {
     color : white;
     font-family: 'Khand';
@@ -78,6 +84,11 @@ ul {
     border-radius: 50px;
     font-size : 1.7em;
     margin-bottom : 5%;
+    border : none;
+
+    :hover {
+        cursor : pointer;
+    }
 }
 
 .TitreH2 {
@@ -99,7 +110,6 @@ ul {
         background-size : cover;
     }
 }
-
 
 
 #ImgBannerText {

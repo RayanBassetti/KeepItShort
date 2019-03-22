@@ -33,7 +33,7 @@
             </p>
             <div id="HomeAffiche">
             </div>
-            <a href="#" class="buttonCTAToCome">Infos pratiques</a> 
+            <button class="buttonCTAToCome">Infos pratiques</button> 
         </div>
     </section>
     <section id="HomeParticiper" class="section">
