@@ -32,6 +32,7 @@
             N’hésitez pas non plus à exposer vos talents !
             </p>
             <div id="HomeAffiche">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/affiche.png" alt="">
             </div>
             <button class="buttonCTAToCome">Infos pratiques</button> 
         </div>
@@ -79,7 +80,7 @@
                     Vous devez nous l'envoyez <span id="texteImportant">avant le 5 Septembre.</span>
                     </li>
                 </ul>
-            <a href="#" class="buttonCTAToCome">Participer</a>
+            <a href="./participer" class="buttonCTAToCome">Participer</a>
         </div>
     </section>
     <section id="HomePartenaires" class="section">
@@ -89,7 +90,7 @@
                 Prenez part à un événement cinématographique dynamique, 
                 concernant tous les étudiant.e.s de France et la population Nantaise.
             </p>
-            <a href="../hallucines/partenaires" class="buttoncta">Devenir partenaire</a>
+            <a href="./partenaire" class="buttoncta">Devenir partenaire</a>
         </div>
     </section>
     <section id="HomeSocialNetworks" class="section">

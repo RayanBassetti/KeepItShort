@@ -23,10 +23,10 @@
 
 <section id="HomeTopBanner">
     <nav id="NavigationMenu">
-        <a href="www.keep-it-short.fr" class="navButton">#Accueil</a>
+        <a href="#" class="navButton">#Accueil</a>
         <a href="#" class="navButton">#Infos pratiques</a>
-        <a href="www.keep-it-short.fr/participer" class="navButton">#Participer</a>
-        <a href="www.keep-it-short.fr/devenir-partenaire" class="navButton">#Devenir Partenaire</a>
+        <a href="./participer" class="navButton">#Participer</a>
+        <a href="./partenaire" class="navButton">#Devenir Partenaire</a>
     </nav>
 </section>
 
