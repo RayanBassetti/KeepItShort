@@ -80,7 +80,7 @@
                     Vous devez nous l'envoyez <span id="texteImportant">avant le 5 Septembre.</span>
                     </li>
                 </ul>
-            <a href="./participer" class="buttonCTAToCome">Participer</a>
+            <a href="./participer" class="buttoncta">Participer</a>
         </div>
     </section>
     <section id="HomePartenaires" class="section">
