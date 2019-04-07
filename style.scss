@@ -25,7 +25,7 @@ $greyishwhite : #EAF0F2;
 html, body {
     height : 100%;
     width : 100%;
-    background-color : black;
+    background-color : white;
 }
 
 p {
@@ -99,11 +99,18 @@ button:hover {
     line-height: 1;
 }
 
+#BigIntroBanner {
+    background-color : #DA4800;
+}
+
 #ImgBanner {
     margin : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     #ImgBannerImg {     
-        width: 100%;
+        width: 80%;
         max-width: 400px;
         height: auto;
         background-image : url("../images/homebanner.png");
@@ -171,7 +178,7 @@ button:hover {
             text-align: center;
             padding-top : 3%;
             padding-bottom : 3%;
-            background-color : black;
+            background-color : #DA4800;
             font-family: "Khand";
 
             .navButton {
@@ -194,7 +201,7 @@ button:hover {
     #HomePresentation {
         
         text-align: justify;
-        color : white;
+        color : black;
 
         #HomePresentationContent {
             margin-left : 5%;
@@ -223,6 +230,9 @@ button:hover {
                 width : 350px;
                 margin : 3%;
                 margin-bottom : 10%;
+                -webkit-box-shadow: 1px 18px 36px -6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 1px 18px 36px -6px rgba(0,0,0,0.75);
+                box-shadow: 1px 18px 36px -6px rgba(0,0,0,0.75);
 
 
                 img {
@@ -275,7 +285,7 @@ button:hover {
 
     #HomePartenaires {
         text-align: justify;
-        color : white;
+        color : black;
 
         #HomePartenairesContent {
             margin-left : 5%;
