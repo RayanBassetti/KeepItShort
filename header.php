@@ -15,16 +15,13 @@
     <div id="ImgBanner">
         <img id="ImgBannerImg" src="<?php echo get_stylesheet_directory_uri(); ?>/images/homebanner"></div>
     </div>
-    <div id="ImgBannerText">
-        <h1>Du 4 au 5 Octobre 2019</h1>
-    </div>
 </div>
 
 
 <section id="HomeTopBanner">
     <nav id="NavigationMenu">
         <a href="http://www.keep-it-short.fr" class="navButton">Accueil</a>
-        <a href="#" class="navButton">Infos pratiques</a>
+        <a href="./infos" class="navButton">Infos pratiques</a>
         <a href="./participer" class="navButton">Participer</a>
         <a href="./partenaire" class="navButton">Devenir Partenaire</a>
     </nav>

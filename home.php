@@ -1,8 +1,5 @@
 <?php get_header(); ?>
-    <!--
-    <section id="HomeCarrousel">
-    </section>
-    -->
+
     <section id="HomeEdition2018">
         <div id="HomeEdtion2018Content">
             <div id="iframe-container">
@@ -18,14 +15,14 @@
             <h2 class="TitreH2">"Keep It Short", c'est quoi</h2>
             <p>
             Rendez-vous de professionnels et étudiants passionnés de cinéma, organisé par
-            l’association étudiante les Hallucinés, le festival <span id="texteImportant">Keep It Short</span> se déroulera 
-            cette année début octobre dans la belle ville de <span id="texteImportant">Nantes</span>.
+            l’association étudiante les Hallucinés, le festival <span class="texteImportant">Keep It Short</span> se déroulera 
+            cette année le <span class="texteImportant">10 et 11 Octobre</span>, au <span class="texteImportant">Katorza</span>, dans la belle ville de Nantes !
             <br />
             Au programme : projection de courts-métrages étudiants, remise des prix, 
             interludes artistiques et plaisirs gustatifs. Alors, n’attendez plus ! 
             Si vous êtes étudiant, que vous avez un court-métrage sous la main et que vous
-            rêvez de mettre la main sur le <span id="texteImportant">Prix du Meilleur Scénario</span>, le <span id="texteImportant">Prix du Jury</span> ou 
-            le <span id="texteImportant">Prix du Public</span>, envoyez-nous votre production !
+            rêvez de mettre la main sur le <span class="texteImportant">Prix du Meilleur Scénario</span>, le <span id="texteImportant">Prix du Jury</span> ou 
+            le <span class="texteImportant">Prix du Public</span>, envoyez-nous votre production !
             <br />
             Pour la 5e édition du festival, les Hallucinés décident de réhabiliter les 
             courts-métrages d’animation et de remettre un prix à cette catégorie. 
@@ -34,7 +31,7 @@
             <div id="HomeAffiche">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/affiche.png" alt="">
             </div>
-            <button class="buttonCTAToCome">Infos pratiques</button> 
+            <a href="./infos" class="buttoncta">Infos pratiques</a>
         </div>
     </section>
     <section id="HomeParticiper" class="section">
@@ -45,19 +42,19 @@
             </p>
                 <ul>
                     <li> 
-                    <span id="texteImportant">Le Prix du Meilleur Scénario</span>
+                    <span class="texteImportant">Le Prix du Meilleur Scénario</span>
                     </li>
                     <br />
                     <li> 
-                    <span id="texteImportant">Le Prix du Jury</span>
+                    <span class="texteImportant">Le Prix du Jury</span>
                     </li>
                     <br />
                     <li> 
-                    <span id="texteImportant">Le Prix du Public</span>
+                    <span class="texteImportant">Le Prix du Public</span>
                     </li>
                     <br />
                     <li> 
-                    <span id="texteImportant">Le Prix du Meilleur Court-Métrage d'Animation</span>
+                    <span class="texteImportant">Le Prix du Meilleur Court-Métrage d'Animation</span>
                     </li>
                 </ul>
             <p>
@@ -69,15 +66,15 @@
             </p>
                 <ul>
                     <li>
-                    Vous devez être <span id="texteImportant">étudiant.e.</span>
+                    Vous devez être <span class="texteImportant">étudiant.e.</span>
                     </li>
                     <br />
                     <li>
-                    Votre court-métrage <span id="texteImportant">ne doit pas</span> dépasser 10 (grand maximum 15) minutes.
+                    Votre court-métrage <span class="texteImportant">ne doit pas</span> dépasser 10 (grand maximum 15) minutes.
                     </li>
                     <br />
                     <li>
-                    Vous devez nous l'envoyez <span id="texteImportant">avant le 5 Septembre.</span>
+                    Vous devez nous l'envoyez <span class="texteImportant">avant le 5 Septembre.</span>
                     </li>
                 </ul>
             <a href="./participer" class="buttoncta">Participer</a>

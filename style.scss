@@ -50,7 +50,7 @@ button:hover {
     padding-bottom : 3%;
 }
 
-#texteImportant {
+.texteImportant {
     font-weight: bold;
 }
 
@@ -67,6 +67,7 @@ button:hover {
     border-radius: 50px;
     font-size : 1.7em;
     margin-bottom : 5%;
+    margin-top : 5%;
     -webkit-box-shadow: 1px 18px 36px -6px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 18px 36px -6px rgba(0,0,0,0.75);
     box-shadow: 1px 18px 36px -6px rgba(0,0,0,0.75);
@@ -124,21 +125,6 @@ button:hover {
     }
 }
 
-
-#ImgBannerText {
-    display: none;
-    text-align: center;
-    background-color : black;
-    color : white;
-    margin-top : 5%;
-    margin-bottom : 5%;
-    
-    h1 {
-        margin-right : 5%;
-        margin-left : 5%;
-        text-transform: uppercase;
-    }
-}
 
     /* HOME */
 
@@ -360,6 +346,39 @@ button:hover {
     }
 
 
+    /* INFOS PRATIQUES */
+
+    #InfosPratiques {
+
+        #Content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top : 3%;
+            margin-bottom : 3%;
+
+            #ContentText {
+                text-align: center;
+
+                h1 {
+                    margin : 1%;
+                }
+
+            }
+
+            #katarzo {
+                margin-top : 1%;
+                width : 360px;
+                -moz-box-shadow: 0px 4px 5px 0px #656565;
+            -webkit-box-shadow: 0px 4px 5px 0px #656565;
+            -o-box-shadow: 0px 4px 5px 0px #656565;
+            box-shadow: 0px 4px 5px 0px #656565;
+            }
+        }
+    }
+
+
 
     /* PARTENAIRES */
 
@@ -400,7 +419,7 @@ button:hover {
         }
     }
 
-    /* CONTACT */
+    /* PARTICIPER */
 
     #Participer {
         background-color : $greyishwhite;
@@ -553,6 +572,14 @@ button:hover {
 
 }
 
+    #InfosPratiques {
+        #Content {
+            #katarzo {
+                width : 600px;
+            }
+        }
+    }
+
     #DevenirPartenaire {
 
         
@@ -571,22 +598,34 @@ button:hover {
 and (min-device-width : 768px) // landscapes and portrait
 and (max-device-width : 900px)  { 
 
-    #BigIntroBanner {
-        width : 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        #ImgBanner {
-            #ImgBannerImg {
-                max-width: none;
+        #BigIntroBanner {
+            width : 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            #ImgBanner {
+                #ImgBannerImg {
+                    max-width: none;
+                }
             }
         }
-    }
 
         #HomeTopBanner {
-            display : initial;
+                display : initial;
         }
+
+        #InfosPratiques {
+            #Content {
+                #katarzo {
+                    width : 450px;
+                }
+            }
+        }
+
+
     }
+
+    
 
 @media only screen //inbetween IPAD and mobile
 and (min-device-width : 400px) // landscapes and portrait
@@ -607,6 +646,14 @@ and (max-device-width : 768px) {
 
     #HomeTopBanner {
         display : initial;
+    }
+
+    #InfosPratiques {
+        #Content {
+            #katarzo {
+                width : 400px;
+            }
+        }
     }
 
 }
