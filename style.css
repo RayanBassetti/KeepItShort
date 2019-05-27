@@ -67,28 +67,6 @@ button:hover {
   box-shadow: 1px 18px 36px -6px rgba(0, 0, 0, 0.75);
 }
 
-.buttonCTAToCome {
-  color: white;
-  font-family: "Khand";
-  background-color: #0E80A3;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 3%;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  font-size: 1.7em;
-  margin-top: 7%;
-  border: none;
-  -webkit-box-shadow: 1px 18px 36px -6px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px 18px 36px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 18px 36px -6px rgba(0, 0, 0, 0.75);
-}
-.buttonCTAToCome :hover {
-  cursor: pointer;
-}
-
 .TitreH2 {
   font-family: "Khand";
   text-transform: uppercase;
@@ -294,6 +272,11 @@ button:hover {
 }
 
 /* INFOS PRATIQUES */
+#InfosPratiques h1 {
+  margin: 1%;
+  text-align: center;
+  text-transform: uppercase;
+}
 #InfosPratiques #Content {
   display: flex;
   flex-direction: column;
@@ -302,11 +285,20 @@ button:hover {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-#InfosPratiques #Content #ContentText {
+#InfosPratiques #Content #ContentText p {
   text-align: center;
 }
-#InfosPratiques #Content #ContentText h1 {
-  margin: 1%;
+#InfosPratiques #Content #ContentText #ContentText_Dates {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+}
+#InfosPratiques #Content #ContentText #ContentText_Dates .ContentText_Date {
+  margin: 3%;
+}
+#InfosPratiques #Content #ContentText #ContentText_Dates .ContentText_Date .InfosDate_Title {
+  text-align: center;
 }
 #InfosPratiques #Content #katarzo {
   margin-top: 1%;
@@ -351,9 +343,6 @@ button:hover {
 }
 
 /* PARTICIPER */
-#Participer {
-  background-color: #EAF0F2;
-}
 #Participer #ParticiperContent {
   padding: 3%;
   display: flex;
@@ -439,13 +428,11 @@ button:hover {
   #HomeTopBanner {
     width: 100%;
     top: 0;
-    position: sticky;
   }
   #HomeTopBanner #NavigationMenu {
     width: 100%;
     padding: 0;
     top: 0;
-    position: sticky;
   }
 
   #HomePresentation, #HomeParticiper, #HomePartenaires, #HomeSocialNetworks {
@@ -474,6 +461,13 @@ button:hover {
     margin-right: 7%;
   }
 
+  #InfosPratiques #Content {
+    flex-direction: row;
+    justify-content: center;
+  }
+  #InfosPratiques #Content #ContentText {
+    margin-right: 10%;
+  }
   #InfosPratiques #Content #katarzo {
     width: 600px;
   }

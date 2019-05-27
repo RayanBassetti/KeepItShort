@@ -93,7 +93,6 @@
     <section id="HomeSocialNetworks" class="section">
         <div id="HomeSocialNetworksContent">
             <h2 class="TitreH2">Nos réseaux sociaux </h2>
-            <p>Parce que c'est ici que vous aurez toutes les informations en premier.</p>
             <ul>
                 <li>
                    <a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/facebook.png" alt=""></a>
